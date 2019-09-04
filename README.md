@@ -8,11 +8,11 @@ The template is create fot static files.
   - Font minify
   - Es6 Babel
   - Basic sass configuration
-  - 
+
 # Instalation
 ```sh
 $ npm install --global gulp-cli@4.0.2
-$ git clone ...
+$ git clone git@github.com:marcosvicente/marcosvicente.github.io.git
 $ npm install 
 ```
 ### Usage
