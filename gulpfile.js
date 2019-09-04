@@ -79,8 +79,10 @@ gulp.task('font', function() {
 
 gulp.task('compile-es6', function () {
     return gulp.src('src/es6/*.js')
-        .pipe(babel())
-        .pipe(gulp.dest('src/js/*.js'));
+        .pipe(babel({
+            presets: ['@babel/preset-env']
+        }))
+        .pipe(gulp.dest('src/js'));
 });
 
 
